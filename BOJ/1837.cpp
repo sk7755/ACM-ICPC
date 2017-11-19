@@ -18,7 +18,7 @@ int main()
 	scanf("%s %d", p, &k);
 	int len = strlen(p);
 
-	for (int i = 2; i <= k; i++)
+	for (int i = 2; i < k; i++)
 	{
 		if (!num[i])
 		{
